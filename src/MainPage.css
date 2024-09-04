@@ -1,0 +1,50 @@
+body, h1, p, button {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: #fff;
+  }
+  
+  .header {
+    margin-bottom: 20px;
+  }
+  
+  .header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .content {
+    text-align: center;
+  }
+  
+  .content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .play-button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #ff6b6b;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .play-button:hover {
+    background-color: #ff4e4e;
+  }
+  

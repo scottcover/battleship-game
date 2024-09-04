@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+}
+
+.grid-container {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  margin-top: 20px;
+}
+
+.player-area {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; 
+  margin-top: 20px;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.cell.ship {
+  background-color: gray;
+}
+
+.cell.hit {
+  background-color: red;
+}
+
+.cell.miss {
+  background-color: lightblue;
+}
+
+.ship-selector {
+  margin-left: 20px; 
+}
+
+.ships {
+  display: flex;
+  flex-direction: column; 
+}
+
+.ship-selector button {
+  margin-bottom: 5px; 
+  padding: 5px 10px; 
+  font-size: 14px; 
+  cursor: pointer;
+}
